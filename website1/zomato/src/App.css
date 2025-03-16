@@ -1,0 +1,61 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.banner {
+  background-color: rgb(255, 63, 63);
+  color:white;
+  background-image: url('./assets/bannner.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: min(60vh, 720px);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center; 
+  position: relative;
+}
+
+.banner h1, h3 {
+  margin: 0 auto;
+}
+
+.banner h1 {
+  margin-bottom: 1.6rem;
+  font-size: 4.45rem;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: italic;
+}
+
+.banner h3 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  justify-content: space-around;
+  width: 90vw;
+  margin-left: 5vw;
+  gap: 8rem;
+  justify-self: start;
+  font-family: 'Poppins';
+}
+
+nav ul li {
+  font-size: 1rem;
+  padding: 8px 0;
+}
+
+@media (max-width: 924px) {
+  .banner {
+    min-height: 90vh;
+  }
+}
