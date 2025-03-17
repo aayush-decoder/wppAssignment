@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    margin: 1rem 2rem;
+}
+
+main section.menu ul {
+    list-style-type: none;
+}
+
+main section.menu ul li {
+    background-color: #2ab7ed99;
+    color: #333;
+    font-family: "Montserrat", Arial, 'sans-serif';
+    font-weight: 700;
+    padding: .75rem 1rem;
+    margin: .36rem;
+    width: 14rem;
+}
+
+main section.menu ul li:hover {
+    color: rgb(255, 86, 56);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    /* section.menu ul {
+        width: 90vw
+    } */
+    section.menu ul li {
+        min-width: 80vw;
+        margin: .24rem;
+    }
+    section.menu ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
