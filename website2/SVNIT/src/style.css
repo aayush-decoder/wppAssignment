@@ -50,6 +50,7 @@ section.carosel .item {
 
 html, body {
   overflow-x: hidden;
+  min-height: 300vh;
 }
 
 .carousel-container {
