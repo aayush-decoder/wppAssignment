@@ -46,3 +46,23 @@ nav ul li {
     transform: rotate(90deg);
     margin-bottom: 2px;
 }
+
+.about-us-dd {
+    display: none;
+    position: absolute;
+    background-color: #0483b3;
+    color: #eee;
+    font-family: Arial, 'sans-serif';
+    padding: 1rem 1rem;
+    z-index: 5;
+    width: 100%;
+}
+
+.about-us {
+    position: relative;
+}
+
+.about-us:hover {
+    /* BUG  */
+    display: block;
+}

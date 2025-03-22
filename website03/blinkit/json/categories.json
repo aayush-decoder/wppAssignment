@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "PersonalCare",
+        "img": "./assets/images/PersonalCare.png"
+    },
+    {
+        "id": 2,
+        "name": "DairyBreadAndEggs",
+        "img": "./assets/images/DairyBreadAndEggs.png"
+    },
+    {
+        "id": 3,
+        "name": "FruitsAndVegetables",
+        "img": "./assets/images/FruitsAndVegetables.png"
+    },
+    {
+        "id": 4,
+        "name": "ColdDrinksAndJuices",
+        "img": "./assets/images/ColdDrinksAndJuices.png"
+    },
+    {
+        "id": 5,
+        "name": "SnacksAndMunchies",
+        "img": "./assets/images/SnacksAndMunchies.png"
+    },
+    {
+        "id": 6,
+        "name": "BreakfastAndInstantFood",
+        "img": "./assets/images/BreakfastAndInstantFood.png"
+    },
+    {
+        "id": 7,
+        "name": "SweetTooth",
+        "img": "./assets/images/SweetTooth.png"
+    },
+    {
+        "id": 8,
+        "name": "BakeryAndBiscuits",
+        "img": "./assets/images/BakeryAndBiscuits.png"
+    },
+    {
+        "id": 9,
+        "name": "TeaCoffeeAndHealthDrink",
+        "img": "./assets/images/TeaCoffeeAndHealthDrink.png"
+    },
+    {
+        "id": 10,
+        "name": "AttaRiceAndDal",
+        "img": "./assets/images/AttaRiceAndDal.png"
+    }
+]

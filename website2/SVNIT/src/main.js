@@ -19,7 +19,7 @@ $(document).ready(function() {
   });
   
   setInterval(function() {
-      index = (index + 2) % totalSlides;
+      index = (index + 1) % totalSlides;
       showSlide();
   }, 4200);
 

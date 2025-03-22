@@ -1,0 +1,27 @@
+nav .btn-link {
+    text-decoration: none;
+}
+nav .login-btn {
+    padding: .6rem 1.5rem;
+}
+
+nav .cart-btn {
+    padding: .6rem 1.04rem;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+nav input::placeholder {
+    font-weight: bold;
+
+}
+
+nav input {
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    outline: none;
+}
