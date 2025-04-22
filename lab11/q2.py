@@ -1,0 +1,11 @@
+import pandas as pd
+
+s = pd.Series(['X', 'Y', 'T', 'Aaba', 'Baca', 'CABA', None, 'bird', 'horse', 'dog'])
+
+upper = s.str.upper()
+lower = s.str.lower()
+length = s.str.len()
+
+print(upper)
+print(lower)
+print(length)
